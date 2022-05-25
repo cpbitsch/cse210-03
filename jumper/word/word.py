@@ -16,11 +16,11 @@ class Word:
         return self._word
 
     def __choose_word__(self, bank_list):
-        a_word = bank_list[random.randint(0, bank_list.__len__())];
+        a_word = bank_list[random.randint(0, bank_list.__len__() - 1)]
         return a_word
 
     def __load_bank__(self):
-        _csv_file = "jumper\\game\\persistent_word_bank.csv"        
+        _csv_file = "cse210-03\jumper\word\persistent_word_bank.csv"
         word_bank = []        
         try:
             with open(_csv_file) as file:
