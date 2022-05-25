@@ -1,3 +1,20 @@
+import sys
+
+def main():
+
+	print('Please enter the password.')
+	
+	password = 'burger'
+	user_input = input('Please Enter Password: ')
+	
+	if user_input != password:
+		sys.exit('Incorrect Password, terminating... \n')
+		
+	print("User is logged in!")
+if __name__ == "__main__":
+	main()
+
+	main()
 class Jumper:
     """Creates the jumper."""
 
