@@ -13,7 +13,8 @@ def main():
 	print("User is logged in!")
 if __name__ == "__main__":
 	main()
-
+#Has an example of a password protection that will limit access to only those who have the password.
+#it can be changed depending on the preference of the team.
 	main()
 class Jumper:
     """Creates the jumper."""
