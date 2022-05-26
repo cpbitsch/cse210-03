@@ -19,13 +19,9 @@ class guess_controller:
 
         if input_letter not in (self._letters):
 
-            self._guess_count = self._guess_count + 1
-
             self._guess_output = False
 
         elif input_letter in (self._letters):
-
-            self._guess_count = self._guess_count + 1
 
             self._guess_output = True
 
