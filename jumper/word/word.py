@@ -20,7 +20,7 @@ class Word:
         return a_word
 
     def __load_bank__(self):
-        _csv_file = "jumper\word\persistent_word_bank.csv"
+        _csv_file = "word\persistent_word_bank.csv"
         word_bank = []        
         try:
             with open(_csv_file) as file:
