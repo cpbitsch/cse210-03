@@ -1,5 +1,6 @@
 from word.word import Word
 from game.Parachutist import Jumper
+from game.guess_controller import guess_controller
 
 class Director():
 
